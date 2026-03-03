@@ -1,0 +1,14 @@
+:root {
+    --inkFing-background-100: #050505;
+    --inkFing-background-200: #111111;
+    --inkFing-background-300: #222222;
+    --inkFing-primary: #ffffff;
+    --inkFing-color-success: #00835c;
+    --inkFing-color-success-content: #effcf9;
+    --inkFing-color-warning: #ffcc00;
+    --inkFing-color-warning-content: #000000;
+    --inkFing-color-error: #e50005;
+    --inkFing-color-error-content: #fef2f2;
+    --inkFing-radius: 4px;
+
+}

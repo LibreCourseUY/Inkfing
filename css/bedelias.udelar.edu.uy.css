@@ -1,0 +1,349 @@
+#PageWrapper #HeaderWrapper #PageHeader {
+    background-color: var(--inkFing-background-200) !important;
+    background-position: left !important;
+}
+
+#PageHeader {
+    height: 70px !important;
+}
+
+#MenuHorizontal_Botones {
+    background-color: var(--inkFing-background-200) !important;
+}
+
+.toggle {
+    background-color: var(--inkFing-background-200) !important;
+}
+
+#Menu\:button_notificaciones::after {
+    content: "M";
+    position: absolute;
+    color: black;
+    transform: translate(-50%, -100%);
+}
+
+.menu li:last-child {
+    border: 0;
+}
+
+nav ul li ul li .toggle,
+nav ul ul a {
+    background-color: var(--inkFing-background-300) !important;
+}
+
+#PageWrapper #FooterWrapper #PageFooter {
+    background-color: var(--inkFing-background-200) !important;
+}
+
+.tituloNombreUsuarioLogueadoContainer {
+    background-color: transparent !important;
+}
+
+.wrapper {
+    background-color: var(--inkFing-background-100) !important;
+}
+
+nav {
+    background-color: var(--inkFing-background-300) !important;
+}
+
+nav a:hover {
+    background-color: var(--inkFing-background-100) !important;
+}
+
+nav ul li {
+    background-color: var(--inkFing-background-200) !important;
+    border-radius: 4px !important;
+}
+
+nav ul li ul {
+    border-radius: 16px !important;
+}
+
+nav ul li ul>* {
+    border-radius: 0px !important;
+}
+
+body .ui-datatable thead th {
+    color: var(--inkFing-primary) !important;
+    background-color: var(--inkFing-background-200) !important;
+}
+
+.subtituloPagina .tituloPaginaSpan {
+    color: var(--inkFing-primary) !important;
+}
+
+body .ui-tabs .ui-tabs-panels {
+    background-color: transparent !important;
+}
+
+body .ui-tabs.ui-tabs-top>.ui-tabs-nav li.ui-tabs-header.ui-state-active {
+    border-color: var(--inkFing-primary) !important;
+    background-color: var(--inkFing-background-300) !important;
+}
+
+body .ui-tabs .ui-tabs-nav li.ui-tabs-header a {
+    color: var(--inkFing-primary) !important;
+}
+
+.menu {
+    background-color: var(--inkFing-background-200) !important;
+}
+
+.ui-dialog-titlebar {
+    color: var(--inkFing-primary) !important;
+    background-color: var(--inkFing-background-200) !important;
+}
+
+.ui-dialog-content {
+    color: var(--inkFing-primary) !important;
+    background-color: var(--inkFing-background-200) !important;
+}
+
+.ui-dialog-footer {
+    background-color: var(--inkFing-background-200) !important;
+}
+
+.ui-button {
+    border-radius: 4px !important;
+    border-color: var(--inkFing-primary) !important;
+    color: var(--inkFing-background-200) !important;
+    background-color: var(--inkFing-primary) !important;
+}
+
+.button {
+    color: var(--inkFing-background-200) !important;
+    background-color: var(--inkFing-primary) !important;
+    border-color: var(--inkFing-primary) !important;
+}
+
+body {
+    background-color: var(--inkFing-background-100) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+#ContentWrapper {
+    background-color: var(--inkFing-background-100) !important;
+}
+
+hr[style="color: #1895d6 !important;"] {
+    display: none !important;
+}
+
+span[style="color:#2779aa"] {
+    color: var(--inkFing-primary) !important;
+}
+
+.estiloMensajeCargado {
+    color: var(--inkFing-primary) !important;
+}
+
+.ui-datatable-tablewrapper {
+    border-bottom: 1px solid var(--inkFing-primary) !important;
+}
+
+.botonIrAlCU.ui-commandlink.ui-widget.botonIrAlCU,
+.botonIrAlCU {
+    background: transparent !important;
+    color: var(--inkFing-primary) !important;
+}
+
+.ui-state-active {
+    background-color: var(--inkFing-background-200) !important;
+}
+
+.ui-accordion {
+    background: var(--inkFing-background-200) !important;
+}
+
+.ui-accordion-header.ui-state-hover {
+    background-color: var(--inkFing-background-100) !important;
+    color: #ccc !important;
+}
+
+.ui-panel-content {
+    background: var(--inkFing-background-100) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+.tituloNotificacionesPanel {
+    color: var(--inkFing-primary) !important;
+}
+
+#contenidoNotificaciones.ui-overlaypanel {
+    border-color: var(--inkFing-primary) !important;
+}
+
+body .ui-overlaypanel {
+    background: var(--inkFing-background-100) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+.tituloPagina .tituloPaginaSpan {
+    color: var(--inkFing-primary) !important;
+}
+
+.ui-panel-titlebar {
+    background-color: var(--inkFing-background-200) !important;
+}
+
+.ui-panelgrid-cell {
+    background-color: transparent !important;
+    color: #ccc !important;
+}
+
+.tituloNoticia {
+    color: var(--inkFing-primary) !important;
+}
+
+.botonLeerMas {
+    color: var(--inkFing-background-200) !important;
+}
+
+.ui-state-hover {
+    background-color: #ccc !important;
+}
+
+.ui-accordion-content {
+    background-color: var(--inkFing-background-100) !important;
+}
+
+.ui-datatable-data>tr {
+    background-color: transparent !important;
+    color: #ccc !important;
+}
+
+.ui-datatable-data>tr.ui-state-hover {
+    background-color: var(--inkFing-background-200) !important;
+    color: #ccc !important;
+}
+
+.tabla_servicios tbody td:hover {
+    background-color: var(--inkFing-background-200) !important;
+    color: #ccc !important;
+}
+
+.ui-datatable-data>tr.ui-state-highlight {
+    background-color: var(--inkFing-background-200) !important;
+    color: #ccc !important;
+}
+
+.ui-accordion .ui-accordion-header {
+    background-color: var(--inkFing-background-100) !important;
+    color: #ccc !important;
+}
+
+.ui-widget-header {
+    background-color: var(--inkFing-background-100) !important;
+    color: #ccc !important;
+}
+
+.ui-paginator-first,
+body .ui-paginator .ui-paginator-prev,
+body .ui-paginator .ui-paginator-next,
+body .ui-paginator .ui-paginator-last {
+    color: #bbb !important;
+}
+
+.ui-paginator-first:hover,
+body .ui-paginator .ui-paginator-prev:hover,
+body .ui-paginator .ui-paginator-next:hover,
+body .ui-paginator .ui-paginator-last:hover {
+    color: var(--inkFing-background-200) !important;
+}
+
+.ui-state-active {
+    color: #bbb !important;
+}
+
+.ui-state-active:hover {
+    color: #bbb !important;
+}
+
+.tituloNombreUsuarioLogueadoSpanCapitalize {
+    font-family: sans-serif !important;
+}
+
+body .ui-fieldset .ui-fieldset-legend {
+    background-color: var(--inkFing-background-100) !important;
+    color: #ccc !important;
+}
+
+body .ui-fieldset {
+    background-color: var(--inkFing-background-100) !important;
+}
+
+.mensajeInfo {
+    background-color: var(--inkFing-background-100) !important;
+    color: #ccc !important;
+}
+
+.codigoValidacion {
+    background-color: var(--inkFing-background-100) !important;
+}
+
+.mensajeEstudianteLogueoTuIDInfo {
+    background-color: var(--inkFing-background-100) !important;
+    color: #ccc !important;
+}
+
+.informacion {
+    background-color: var(--inkFing-background-100) !important;
+    color: #ccc !important;
+}
+
+.captchContainer {
+    background-color: var(--inkFing-background-100) !important;
+    color: #ccc !important;
+}
+
+.tablanivel1 thead th {
+    background-color: var(--inkFing-background-100) !important;
+    color: #ccc !important;
+}
+
+body .tablanivel2 tbody td {
+    background-color: var(--inkFing-background-100) !important;
+    color: #ccc !important;
+}
+
+.ui-buttonset>div {
+    border-radius: 0px !important;
+}
+
+.ui-messages-info,
+.ui-message-info {
+    background-color: var(--inkFing-background-100) !important;
+    color: #ccc !important;
+}
+
+.mensajesAdvertencia>a:nth-child(2) {
+    color: #2196f3 !important;
+}
+
+a[style="color: blue"] {
+    color: #2196f3 !important;
+}
+
+div[style="color: #535353;"],
+a[style="color: #535353;"] {
+    color: #ccc !important;
+}
+
+.colTitulo tr:first-child {
+    background-color: var(--inkFing-primary) !important;
+}
+
+.col1_paso {
+    color: var(--inkFing-background-100) !important;
+}
+
+.col1_titulo {
+    color: #ccc !important;
+}
+
+#foot:after {
+    margin: 1rem;
+    content: "InkFing";
+    color: #bbb;
+}
