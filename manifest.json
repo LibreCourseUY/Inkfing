@@ -3,7 +3,7 @@
     "short_name": "InkFing",
     "name": "InkFing",
     "description": "A refreshed dark-mode for day to day Fing students web apps.",
-    "version": "0.1",
+    "version": "0.2",
     "author": "LibreCourseUY",
     "icons": {
         "16": "icons/16x.png",
@@ -14,6 +14,7 @@
         "256": "icons/256x.png",
         "512": "icons/512x.png"
     },
+    "permissions": ["storage"],
     "content_scripts": [
         {
             "matches": ["*://*.bedelias.udelar.edu.uy/*"],
@@ -26,9 +27,24 @@
             "run_at": "document_start"
         },
         {
+            "matches": ["*://eva.fing.edu.uy/*"],
+            "js": ["js/eva.fing.edu.uy.js"],
+            "run_at": "document_idle"
+        },
+        {
             "matches": ["*://www.fing.edu.uy/*"],
             "css": ["css/root.css", "css/www.fing.edu.uy.css"],
             "run_at": "document_start"
+        },
+        {
+            "matches": ["*://login.udelar.edu.uy/*"],
+            "css": ["css/root.css", "css/login.udelar.edu.uy.css"],
+            "run_at": "document_start"
+        },
+        {
+            "matches": ["*://login.udelar.edu.uy/*"],
+            "js": ["js/login.udelar.edu.uy.js"],
+            "run_at": "document_idle"
         }
     ]
 }

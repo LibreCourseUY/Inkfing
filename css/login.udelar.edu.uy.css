@@ -1,0 +1,74 @@
+body {
+    background-color: var(--inkFing-background-100) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: var(--inkFing-background-100) !important;
+    position: absolute;
+    bottom: 1rem;
+}
+
+footer>div {
+    width: auto !important;
+}
+
+.footer-text {
+    margin: 0;
+}
+
+img {
+    width: 50%;
+}
+
+a:link,
+a:visited {
+    color: var(--inkFing-primary) !important;
+}
+
+.item-marker {
+    color: var(--inkFing-color-error) !important;
+}
+
+.tooltip .tooltiptext {
+    background-color: var(--inkFing-background-200) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+.form-field {
+    background-color: var(--inkFing-background-200) !important;
+    color: var(--inkFing-primary) !important;
+    border-color: var(--inkFing-background-300);
+}
+
+.wrapper {
+    background-color: var(--inkFing-background-100) !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100svh;
+}
+
+.container {
+    left: 0;
+    margin-left: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.column.one {
+    margin: 0;
+}

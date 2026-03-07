@@ -1,15 +1,14 @@
 /* Here lies the main colors InkFing uses through all the css files, try to avoid repeating color codes, properties, etc. 
 Instead define a property/variable in root to be used across everywhere */
 :root {
-    --inkFing-background-100: #050505;
-    --inkFing-background-200: #111111;
-    --inkFing-background-300: #222222;
-    --inkFing-primary: #ffffff;
-    --inkFing-color-success: #00835c;
-    --inkFing-color-success-content: #effcf9;
-    --inkFing-color-warning: #ffcc00;
-    --inkFing-color-warning-content: #000000;
-    --inkFing-color-error: #e50005;
-    --inkFing-color-error-content: #fef2f2;
+    --inkFing-background-100: #111213;
+    --inkFing-background-200: #1e1e1e;
+    --inkFing-background-300: #2a2a2a;
+    --inkFing-link: #3388ff;
+    --inkFing-primary: #eaeaea;
+    --inkFing-secondary: #a0a0a0;
+    --inkFing-color-error: #ff4440;
+    --inkFing-color-success: #1e7b20;
+    --inkFing-color-blue: #201e7b;
     --inkFing-radius: 4px;
 }
