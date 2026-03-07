@@ -1,12 +1,13 @@
 const canvas = document.createElement("canvas");
-const ctx = canvas.getContext("2d");
+const ctx = canvas.getContext("2d", { willReadFrequently: true });
 const style = getComputedStyle(document.body)
 const hexToRgb = (hex) => {
     const r = parseInt(hex.slice(1, 3), 16);
     const g = parseInt(hex.slice(3, 5), 16);
     const b = parseInt(hex.slice(5, 7), 16);
-    return { r, g, b };
+    return { r, g, b, a: 1 };
 };
+const bg_100 = hexToRgb(style.getPropertyValue("--inkFing-background-100"));
 const bg_200 = hexToRgb(style.getPropertyValue("--inkFing-background-200"));
 const primary = hexToRgb(style.getPropertyValue("--inkFing-primary"));
 const secondary = hexToRgb(style.getPropertyValue("--inkFing-secondary"));
@@ -19,6 +20,16 @@ async function initImage() {
             element.src = result[`${storagePrefix}${i}`];
         } else {
             await generateAndSaveImage(element, `${storagePrefix}${i}`, bg_200, primary, 200);
+        }
+    });
+}
+async function initBanner() {
+    document.querySelectorAll(".img-responsive").forEach(async (element, i) => {
+        const result = await chrome.storage.local.get([`${storagePrefix}banner/${i}`]);
+        if (result[`${storagePrefix}banner/${i}`]) {
+            element.src = result[`${storagePrefix}banner/${i}`];
+        } else {
+            await generateAndSaveImage(element, `${storagePrefix}banner/${i}`, { a: 0 }, bg_100, 240);
         }
     });
 }
@@ -46,12 +57,12 @@ async function generateAndSaveImage(element, i, color1, color2, point) {
         const data = imageData.data;
         for (let i = 0; i < data.length; i += 4) {
             const avg = (data[i] + data[i + 1] + data[i + 2]) / 3;
-            if (avg < point) {
+            if (avg < point && (color1.a != 0)) {
                 data[i] = color1.r; // r
                 data[i + 1] = color1.g; // g
                 data[i + 2] = color1.b; // b
             }
-            else {
+            else if (avg > point && (color2.a != 0)) {
                 data[i] = color2.r; // r
                 data[i + 1] = color2.g; // g
                 data[i + 2] = color2.b; // b
@@ -65,3 +76,4 @@ async function generateAndSaveImage(element, i, color1, color2, point) {
 }
 if (window.location.pathname == "/") initImage();
 if (window.location.pathname.startsWith("/login")) initLogo();
+if (window.location.pathname.startsWith("/course")) initBanner();
