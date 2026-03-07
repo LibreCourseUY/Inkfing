@@ -17,7 +17,12 @@
 }
 
 #Menu\:button_notificaciones::after {
-    content: "M";
+    content: " ";
+    /*Bell Icon*/
+    width: 16px;
+    height: 16px;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiBjbGFzcz0iYmkgYmktYmVsbCIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNOCAxNmEyIDIgMCAwIDAgMi0ySDZhMiAyIDAgMCAwIDIgMk04IDEuOTE4bC0uNzk3LjE2MUE0IDQgMCAwIDAgNCA2YzAgLjYyOC0uMTM0IDIuMTk3LS40NTkgMy43NDItLjE2Ljc2Ny0uMzc2IDEuNTY2LS42NjMgMi4yNThoMTAuMjQ0Yy0uMjg3LS42OTItLjUwMi0xLjQ5LS42NjMtMi4yNThDMTIuMTM0IDguMTk3IDEyIDYuNjI4IDEyIDZhNCA0IDAgMCAwLTMuMjAzLTMuOTJ6TTE0LjIyIDEyYy4yMjMuNDQ3LjQ4MS44MDEuNzggMUgxYy4yOTktLjE5OS41NTctLjU1My43OC0xQzIuNjggMTAuMiAzIDYuODggMyA2YzAtMi40MiAxLjcyLTQuNDQgNC4wMDUtNC45MDFhMSAxIDAgMSAxIDEuOTkgMEE1IDUgMCAwIDEgMTMgNmMwIC44OC4zMiA0LjIgMS4yMiA2Ii8+Cjwvc3ZnPg==");
+    background-size: cover;
     position: absolute;
     color: black;
     transform: translate(-50%, -100%);
@@ -159,7 +164,7 @@ span[style="color:#2779aa"] {
 
 .ui-accordion-header.ui-state-hover {
     background-color: var(--inkFing-background-100) !important;
-    color: #ccc !important;
+    color: var(--inkFing-secondary) !important;
 }
 
 .ui-panel-content {
@@ -172,7 +177,17 @@ span[style="color:#2779aa"] {
 }
 
 #contenidoNotificaciones.ui-overlaypanel {
-    border-color: var(--inkFing-primary) !important;
+    border-color: var(--inkFing-background-300) !important;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+    background-color: var(--inkFing-link) !important;
+}
+
+body .ui-fieldset {
+    color: var(--inkFing-primary) !important;
 }
 
 body .ui-overlaypanel {
@@ -190,7 +205,7 @@ body .ui-overlaypanel {
 
 .ui-panelgrid-cell {
     background-color: transparent !important;
-    color: #ccc !important;
+    color: var(--inkFing-secondary) !important;
 }
 
 .tituloNoticia {
@@ -202,7 +217,7 @@ body .ui-overlaypanel {
 }
 
 .ui-state-hover {
-    background-color: #ccc !important;
+    background-color: var(--inkFing-secondary) !important;
 }
 
 .ui-accordion-content {
@@ -211,32 +226,33 @@ body .ui-overlaypanel {
 
 .ui-datatable-data>tr {
     background-color: transparent !important;
-    color: #ccc !important;
+    color: var(--inkFing-secondary) !important;
 }
 
 .ui-datatable-data>tr.ui-state-hover {
     background-color: var(--inkFing-background-200) !important;
-    color: #ccc !important;
+    color: var(--inkFing-secondary) !important;
 }
 
 .tabla_servicios tbody td:hover {
     background-color: var(--inkFing-background-200) !important;
-    color: #ccc !important;
+    color: var(--inkFing-secondary) !important;
 }
 
 .ui-datatable-data>tr.ui-state-highlight {
     background-color: var(--inkFing-background-200) !important;
-    color: #ccc !important;
+    color: var(--inkFing-secondary) !important;
 }
 
 .ui-accordion .ui-accordion-header {
     background-color: var(--inkFing-background-100) !important;
-    color: #ccc !important;
+    color: var(--inkFing-primary) !important;
+    border-color: var(--inkFing-primary) !important;
 }
 
 .ui-widget-header {
     background-color: var(--inkFing-background-100) !important;
-    color: #ccc !important;
+    color: var(--inkFing-secondary) !important;
 }
 
 .ui-paginator-first,
@@ -267,7 +283,13 @@ body .ui-paginator .ui-paginator-last:hover {
 
 body .ui-fieldset .ui-fieldset-legend {
     background-color: var(--inkFing-background-100) !important;
-    color: #ccc !important;
+    color: var(--inkFing-primary) !important;
+}
+
+body .ui-inputfield {
+    background-color: var(--inkFing-background-100) !important;
+    color: var(--inkFing-primary) !important;
+    border-color: var(--inkFing-background-300) !important;
 }
 
 body .ui-fieldset {
@@ -276,7 +298,7 @@ body .ui-fieldset {
 
 .mensajeInfo {
     background-color: var(--inkFing-background-100) !important;
-    color: #ccc !important;
+    color: var(--inkFing-secondary) !important;
 }
 
 .codigoValidacion {
@@ -285,27 +307,27 @@ body .ui-fieldset {
 
 .mensajeEstudianteLogueoTuIDInfo {
     background-color: var(--inkFing-background-100) !important;
-    color: #ccc !important;
+    color: var(--inkFing-secondary) !important;
 }
 
 .informacion {
     background-color: var(--inkFing-background-100) !important;
-    color: #ccc !important;
+    color: var(--inkFing-secondary) !important;
 }
 
 .captchContainer {
     background-color: var(--inkFing-background-100) !important;
-    color: #ccc !important;
+    color: var(--inkFing-secondary) !important;
 }
 
 .tablanivel1 thead th {
     background-color: var(--inkFing-background-100) !important;
-    color: #ccc !important;
+    color: var(--inkFing-secondary) !important;
 }
 
 body .tablanivel2 tbody td {
     background-color: var(--inkFing-background-100) !important;
-    color: #ccc !important;
+    color: var(--inkFing-secondary) !important;
 }
 
 .ui-buttonset>div {
@@ -315,7 +337,7 @@ body .tablanivel2 tbody td {
 .ui-messages-info,
 .ui-message-info {
     background-color: var(--inkFing-background-100) !important;
-    color: #ccc !important;
+    color: var(--inkFing-secondary) !important;
 }
 
 .mensajesAdvertencia>a:nth-child(2) {
@@ -328,7 +350,7 @@ a[style="color: blue"] {
 
 div[style="color: #535353;"],
 a[style="color: #535353;"] {
-    color: #ccc !important;
+    color: var(--inkFing-secondary) !important;
 }
 
 .colTitulo tr:first-child {
@@ -340,11 +362,11 @@ a[style="color: #535353;"] {
 }
 
 .col1_titulo {
-    color: #ccc !important;
+    color: var(--inkFing-secondary) !important;
 }
 
 #foot:after {
     margin: 1rem;
-    content: "InkFing";
+    content: "You are using InkFing";
     color: #bbb;
 }

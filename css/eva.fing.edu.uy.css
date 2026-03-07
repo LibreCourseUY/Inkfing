@@ -3,5 +3,618 @@
 /* As an example this adds some text on the footers page */
 .popover-body>div:nth-child(2):after {
     content: "You are using InkFing";
-    color: #bbb;
+    color: var(--inkFing-secondary);
+}
+
+.dimmed_text,
+.usersuspended,
+.dimmed_category {
+    color: var(--inkFing-secondary) !important;
+}
+
+.notification-area,
+.notification-area .control-area {
+    border-color: var(--inkFing-background-300) !important;
+}
+
+.border-right,
+.border-end {
+    border-color: var(--inkFing-background-300) !important;
+}
+
+.notification-area .content-area .header .timestamp {
+    color: var(--inkFing-secondary) !important;
+}
+
+.modal-header>.btn-close {
+    color: var(--inkFing-primary) !important;
+}
+
+.calendar_event_course {
+    background-color: var(--inkFing-background-200) !important;
+}
+
+.modal-content {
+    background-color: var(--inkFing-background-100) !important;
+}
+
+div.eva_botonera:nth-child(3)>a>img {
+    width: 200px;
+    height: 171px;
+}
+
+.fing-btn-login {
+    color: var(--inkFing-primary) !important;
+}
+
+.popover-region-header-container {
+    border-color: transparent;
+}
+
+.onetopic-tab-body {
+    background-color: var(--inkFing-background-100) !important;
+}
+
+.format-onetopic .onetopic-withsectionbg .course-section,
+.format-onetopic .onetopic-withsubsectionbg .course-section {
+    background-color: var(--inkFing-background-100) !important;
+}
+
+.content-item-container.selected {
+    border-color: var(--inkFing-link) !important;
+    background-color: var(--inkFing-link) !important;
+}
+
+.popover-region-footer-container {
+    border-color: var(--inkFing-background-200) !important;
+    background-color: var(--inkFing-background-300) !important;
+}
+
+.content-item-container {
+    border-color: var(--inkFing-background-300) !important;
+}
+
+.all-notifications>div:hover,
+.all-notifications>div:focus {
+    background-color: var(--inkFing-background-300) !important;
+
+}
+
+.popover {
+    background-color: var(--inkFing-background-200) !important;
+    color: var(--inkFing-primary) !important;
+    border-color: var(--inkFing-background-300) !important;
+}
+
+.popover-region-container {
+    background-color: var(--inkFing-background-200) !important;
+    border-color: var(--inkFing-background-300) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+.normal-icon {
+    color: var(--inkFing-primary) !important;
+}
+
+button[data-action="close-notification-popover"] {
+    color: var(--inkFing-primary) !important;
+}
+
+.popover.footer .popover-body .footer-section a .icon {
+    color: var(--inkFing-primary) !important;
+}
+
+.popover-body {
+    color: var(--inkFing-primary) !important;
+}
+
+.popover.footer .popover-body .footer-section a {
+    color: var(--inkFing-link) !important;
+}
+
+.arrow {
+    display: none !important;
+}
+
+.bg-secondary {
+    background-color: var(--inkFing-background-200) !important;
+    color: var(--inkFing-background-300) !important;
+}
+
+.border-bottom {
+    border-color: var(--inkFing-background-300) !important;
+}
+
+body {
+    background-color: var(--inkFing-background-100) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+.login-container {
+    background-color: var(--inkFing-background-200) !important;
+    border: 1px solid var(--inkFing-background-300) !important;
+    box-shadow: none;
+}
+
+.pagelayout-login #page {
+    background-color: var(--inkFing-background-100) !important;
+    background-image: none !important;
+}
+
+.navbar.fixed-top {
+    background-color: var(--inkFing-background-200) !important;
+    border-color: var(--inkFing-background-300) !important;
+}
+
+#page.drawers .main-inner {
+    background-color: var(--inkFing-background-100) !important;
+}
+
+#region-main {
+    background-color: var(--inkFing-background-100) !important;
+}
+
+.coursebox a {
+    color: var(--inkFing-link) !important;
+}
+
+.coursebox a:focus {
+    background-color: var(--inkFing-link) !important;
+    color: var(--inkFing-background-200) !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+tr[style*="background-color: #d9d9d9;"] {
+    background-color: var(--inkFing-background-300) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+td[style*="background-color: #eeeeee;"] {
+    background-color: var(--inkFing-background-300) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+*[style*="background-color: #fafedb;"],
+*[style*="background: #fafedb;"] {
+    background-color: var(--inkFing-background-200) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+*[style*="background-color: #fedbdb;"],
+*[style*="background: #fedbdb;"] {
+    background-color: var(--inkFing-color-error) !important;
+    color: var(--inkFing-background-100) !important;
+}
+
+*[style*="background-color: #dbeafe;"],
+*[style*="background: #dbeafe;"] {
+    background-color: var(--inkFing-color-success) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+*[style*="background-color: #e1fedb;"],
+*[style*="background: #e1fedb;"] {
+    background-color: var(--inkFing-color-blue) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+.coursebox {
+    border-color: var(--inkFing-background-300) !important;
+    background-color: var(--inkFing-background-200) !important;
+}
+
+#yui_3_18_1_1_1772586131442_12 {
+    color: var(--inkFing-primary);
+}
+
+#message-user-button {
+    color: var(--inkFing-link) !important;
+}
+
+#message-user-button>i {
+    color: var(--inkFing-link) !important;
+}
+
+.btn-primary {
+    background-color: var(--inkFing-link) !important;
+    border-color: var(--inkFing-link) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+.btn-secondary {
+    border-color: var(--inkFing-background-300) !important;
+    background-color: var(--inkFing-background-200) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+.btn-secondary:focus {
+    background-color: var(--inkFing-background-100) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+.alert-primary {
+    background-color: var(--inkFing-background-200) !important;
+    color: var(--inkFing-primary) !important;
+    border-color: var(--inkFing-background-300) !important;
+}
+
+.course-section .section-item {
+    border-color: transparent !important;
+}
+
+.dropdown-menu {
+    background-color: var(--inkFing-background-200) !important;
+    border-color: var(--inkFing-background-300) !important;
+}
+
+.dropdown-menu a {
+    color: var(--inkFing-primary) !important;
+}
+
+.dropdown-menu a:hover {
+    background-color: var(--inkFing-background-100) !important;
+}
+
+.dropdown-menu a:focus {
+    background-color: var(--inkFing-background-100) !important;
+}
+
+.simplesearchform .collapse.show,
+.simplesearchform .collapsing {
+    background-color: var(--inkFing-background-200) !important;
+}
+
+.drawer {
+    background-color: var(--inkFing-background-100) !important;
+}
+
+.drawertoggle {
+    color: var(--inkFing-primary) !important;
+}
+
+.navbar.fixed-top .login a {
+    background-color: transparent !important;
+    color: var(--inkFing-primary) !important;
+}
+
+.form-control {
+    background-color: var(--inkFing-background-100) !important;
+    color: var(--inkFing-primary);
+    border-color: var(--inkFing-background-300) !important;
+}
+
+.form-control:focus {
+    color: var(--inkFing-primary);
+}
+
+.close,
+.btn-close {
+    text-shadow: none;
+}
+
+.simplesearchform .btn-submit {
+    background-color: var(--inkFing-background-100) !important;
+    color: var(--inkFing-primary);
+    border-color: var(--inkFing-background-300) !important;
+}
+
+
+.card {
+    background-color: var(--inkFing-background-200) !important;
+    border: 1px solid var(--inkFing-background-300);
+}
+
+.card-text>div>a {
+    color: var(--inkFing-link) !important;
+}
+
+.card-text>div>a:focus {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.generaltable {
+    color: var(--inkFing-primary) !important;
+}
+
+tbody tr:nth-of-type(2n) {
+    background-color: transparent !important;
+}
+
+.generaltable th {
+    background-color: var(--inkFing-background-200) !important;
+}
+
+.generaltable th,
+.generaltable td {
+    border-color: var(--inkFing-background-300) !important;
+}
+
+.generaltable tbody tr:hover,
+.table-hover tbody tr:hover {
+    color: var(--inkFing-primary) !important;
+}
+
+.custom-select {
+    background-color: var(--inkFing-background-200) !important;
+    color: var(--inkFing-primary);
+    border-color: var(--inkFing-background-300) !important;
+}
+
+.navbar-light .navbar-nav .show>.nav-link {
+    color: var(--inkFing-primary) !important;
+}
+
+.navbar.fixed-top .nav-link {
+    color: var(--inkFing-primary) !important;
+}
+
+.maincalendar .calendarmonth .clickable:hover {
+    background-color: var(--inkFing-background-200) !important;
+}
+
+.tertiary-navigation.full-width-bottom-border {
+    border-color: var(--inkFing-background-300) !important;
+}
+
+.nav-tabs:not(.more-nav),
+.nav-pills {
+    background-color: var(--inkFing-background-100) !important;
+}
+
+.tertiary-navigation .navitem-divider {
+    background-color: var(--inkFing-background-300) !important;
+}
+
+a {
+    color: var(--inkFing-link) !important;
+}
+
+a>i {
+    color: var(--inkFing-primary) !important;
+}
+
+
+.input-group-text {
+    border-color: var(--inkFing-background-300) !important;
+}
+
+.border-top {
+    border-color: var(--inkFing-background-300) !important;
+}
+
+.btn.btn-icon:hover,
+.btn.btn-icon:focus {
+    background-color: var(--inkFing-primary) !important;
+    color: var(--inkFing-background-100) !important;
+}
+
+.dropdown-divider {
+    border-color: var(--inkFing-background-300) !important;
+}
+
+.navbar.fixed-top .divider {
+    border-color: var(--inkFing-background-300) !important;
+}
+
+.bg-white {
+    background-color: var(--inkFing-background-100) !important;
+}
+
+.bg-light {
+    background-color: var(--inkFing-background-200) !important;
+}
+
+.border {
+    border-color: var(--inkFing-background-300) !important;
+}
+
+.page-item.active .page-link {
+    background-color: var(--inkFing-link) !important;
+    border-color: var(--inkFing-link) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+.page-link {
+    background-color: var(--inkFing-background-200) !important;
+    border-color: var(--inkFing-background-300) !important;
+}
+
+.path-grade-report-user .user-report-container {
+    background-color: var(--inkFing-background-200) !important;
+    border-color: var(--inkFing-background-300) !important;
+}
+
+.path-grade-report-user .user-grade th.category a.toggle-category i,
+.grade-report-user .user-grade th.category a.toggle-category i {
+    color: var(--inkFing-primary) !important;
+}
+
+.path-grade-report-user .user-grade th.category a.toggle-category:hover>span>i,
+.grade-report-user .user-grade th.category a.toggle-category:hover>span>i,
+.path-grade-report-user .user-grade th.category a.toggle-category:focus>span>i,
+.grade-report-user .user-grade th.category a.toggle-category:focus>span>i {
+    color: var(--inkFing-background-100) !important;
+}
+
+.btn.dropdown-toggle {
+    color: var(--inkFing-primary) !important;
+}
+
+.dropdown-item {
+    color: var(--inkFing-primary) !important;
+}
+
+.form-autocomplete-suggestions {
+    background-color: var(--inkFing-background-200) !important;
+    border-color: var(--inkFing-background-300) !important;
+}
+
+.form-autocomplete-suggestions li {
+    color: var(--inkFing-primary) !important;
+}
+
+.form-autocomplete-suggestions li[aria-selected="true"] {
+    color: var(--inkFing-primary) !important;
+}
+
+.form-autocomplete-selection>span {
+    background-color: var(--inkFing-link) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+.path-grade-report-user .user-grade td {
+    background-color: transparent !important;
+}
+
+.nav-item>a {
+    background-color: var(--inkFing-background-200) !important;
+}
+
+a:focus {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.course_category_tree .category.with_children.collapsed>.info>.categoryname {
+    /*Chevron right*/
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iI2ZmZmZmZiIgY2xhc3M9ImJpIGJpLWNoZXZyb24tcmlnaHQiIHZpZXdCb3g9IjAgMCAxNiAxNiI+CiAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNC42NDYgMS42NDZhLjUuNSAwIDAgMSAuNzA4IDBsNiA2YS41LjUgMCAwIDEgMCAuNzA4bC02IDZhLjUuNSAwIDAgMS0uNzA4LS43MDhMMTAuMjkzIDggNC42NDYgMi4zNTRhLjUuNSAwIDAgMSAwLS43MDgiLz4KPC9zdmc+') !important;
+}
+
+.activity>.activity-item>.activity-grid>.activity-altcontent>div>div>div {
+    background-color: transparent !important;
+}
+
+.course_category_tree .category.with_children>.info>.categoryname {
+    /*Chevron down*/
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iI2ZmZmZmZiIgY2xhc3M9ImJpIGJpLWNoZXZyb24tZG93biIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xLjY0NiA0LjY0NmEuNS41IDAgMCAxIC43MDggMEw4IDEwLjI5M2w1LjY0Ni01LjY0N2EuNS41IDAgMCAxIC43MDguNzA4bC02IDZhLjUuNSAwIDAgMS0uNzA4IDBsLTYtNmEuNS41IDAgMCAxIDAtLjcwOCIvPgo8L3N2Zz4=');
+}
+
+.spinner {
+    /*Arror Repeat*/
+    content: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iI2ZmZmZmZiIgY2xhc3M9ImJpIGJpLWFycm93LXJlcGVhdCIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTEuNTM0IDdoMy45MzJhLjI1LjI1IDAgMCAxIC4xOTIuNDFsLTEuOTY2IDIuMzZhLjI1LjI1IDAgMCAxLS4zODQgMGwtMS45NjYtMi4zNmEuMjUuMjUgMCAwIDEgLjE5Mi0uNDFtLTExIDJoMy45MzJhLjI1LjI1IDAgMCAwIC4xOTItLjQxTDIuNjkyIDYuMjNhLjI1LjI1IDAgMCAwLS4zODQgMEwuMzQyIDguNTlBLjI1LjI1IDAgMCAwIC41MzQgOSIvPgogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTggM2MtMS41NTIgMC0yLjk0LjcwNy0zLjg1NyAxLjgxOGEuNS41IDAgMSAxLS43NzEtLjYzNkE2LjAwMiA2LjAwMiAwIDAgMSAxMy45MTcgN0gxMi45QTUgNSAwIDAgMCA4IDNNMy4xIDlhNS4wMDIgNS4wMDIgMCAwIDAgOC43NTcgMi4xODIuNS41IDAgMSAxIC43NzEuNjM2QTYuMDAyIDYuMDAyIDAgMCAxIDIuMDgzIDl6Ii8+Cjwvc3ZnPg==') !important;
+    margin-left: .5rem;
+}
+
+.category {
+    background-color: var(--inkFing-background-200) !important;
+    border: 1px solid var(--inkFing-background-300) !important;
+}
+
+.message-app {
+    background-color: var(--inkFing-background-100) !important;
+}
+
+.list-group-item {
+    background-color: var(--inkFing-background-100) !important;
+}
+
+.dropdown-menu {
+    color: var(--inkFing-primary) !important;
+}
+
+.reportbuilder-filters-sidebar {
+    background-color: var(--inkFing-background-200) !important;
+    background-image: none;
+}
+
+.alert-info {
+    background-color: var(--inkFing-background-200) !important;
+    border-color: var(--inkFing-background-300) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+.moremenu .nav-tabs {
+    background-color: transparent !important;
+}
+
+.secondary-navigation .navigation {
+    background-color: var(--inkFing-background-200) !important;
+    border-color: var(--inkFing-background-300) !important;
+}
+
+.moremenu .nav-link:hover,
+.moremenu .nav-link:focus {
+    background-color: var(--inkFing-background-300) !important;
+}
+
+.breadcrumb {
+    background-color: var(--inkFing-background-200) !important;
+}
+
+.nav-tabs .nav-item.show .nav-link {
+    background-color: var(--inkFing-background-300) !important;
+}
+
+.fp-pathbar .fp-path-folder {
+    /*Folder*/
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iI2ZmZmZmZiIgY2xhc3M9ImJpIGJpLWZvbGRlciIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNLjU0IDMuODcuNSAzYTIgMiAwIDAgMSAyLTJoMy42NzJhMiAyIDAgMCAxIDEuNDE0LjU4NmwuODI4LjgyOEEyIDIgMCAwIDAgOS44MjggM2gzLjk4MmEyIDIgMCAwIDEgMS45OTIgMi4xODFsLS42MzcgN0EyIDIgMCAwIDEgMTMuMTc0IDE0SDIuODI2YTIgMiAwIDAgMS0xLjk5MS0xLjgxOWwtLjYzNy03YTIgMiAwIDAgMSAuMzQyLTEuMzF6TTIuMTkgNGExIDEgMCAwIDAtLjk5NiAxLjA5bC42MzcgN2ExIDEgMCAwIDAgLjk5NS45MWgxMC4zNDhhMSAxIDAgMCAwIC45OTUtLjkxbC42MzctN0ExIDEgMCAwIDAgMTMuODEgNHptNC42OS0xLjcwN0ExIDEgMCAwIDAgNi4xNzIgMkgyLjVhMSAxIDAgMCAwLTEgLjk4MWwuMDA2LjEzOXEuMzIzLS4xMTkuNjg0LS4xMmg1LjM5NnoiLz4KPC9zdmc+');
+}
+
+.activity-dates {
+    color: var(--inkFing-primary) !important;
+    opacity: 80%;
+}
+
+.activity {
+    border-color: var(--inkFing-background-300) !important;
+}
+
+.activity-item .activity-altcontent.activity-description {
+    border-color: var(--inkFing-background-300) !important;
+}
+
+button[data-action="toggle-manual-completion"] {
+    background-color: var(--inkFing-background-200) !important;
+    border-color: var(--inkFing-background-300) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: var(--inkFing-background-200) !important;
+    border-color: var(--inkFing-background-300) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+.nav-tabs .nav-link {
+    border-color: var(--inkFing-background-300) !important;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid var(--inkFing-background-300) !important;
+}
+
+/*Target banners etc*/
+div[style="background-color: #d6feff;"] {
+    background-color: var(--inkFing-link);
+}
+
+/* On screens larger than x always show search bar*/
+@media screen and (min-width: 1000px) {
+    a[data-action="closesearch"] {
+        display: none !important;
+    }
+
+    a[data-action="opensearch"] {
+        display: none !important;
+    }
+
+    #searchform-navbar {
+        display: flex !important;
+    }
+
+    .simplesearchform {
+        display: flex;
+        align-items: center;
+    }
+
+    html.yui3-js-enabled body#page-course-index-category.format-site.limitedwidth.path-course.path-course-index.gecko.dir-ltr.lang-es.yui-skin-sam.yui3-skin-sam.eva-fing-edu-uy.pagelayout-coursecategory.course-1.context-114.category-102.theme.uses-drawers.jsenabled div#page-wrapper.d-print-block nav.navbar.fixed-top.navbar-light.bg-white.navbar-expand div#usernavigation.navbar-nav.ml-auto div#searchinput-navbar-69aa042078b0b69aa04206d8136.simplesearchform a.btn.btn-open.rounded-0.nav-link {
+        display: none !important;
+    }
+
+    .simplesearchform .collapse.show {
+        position: relative;
+        width: auto;
+    }
 }
