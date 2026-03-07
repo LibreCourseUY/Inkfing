@@ -1,5 +1,5 @@
 const canvas = document.createElement("canvas");
-const ctx = canvas.getContext("2d");
+const ctx = canvas.getContext("2d", { willReadFrequently: true });
 const style = getComputedStyle(document.body)
 const hexToRgb = (hex) => {
     const r = parseInt(hex.slice(1, 3), 16);
@@ -35,12 +35,12 @@ async function generateAndSaveImage(element, i, color1, color2, point) {
         const data = imageData.data;
         for (let i = 0; i < data.length; i += 4) {
             const avg = (data[i] + data[i + 1] + data[i + 2]) / 3;
-            if (avg < point) {
+            if (avg < point && (color1.a != 0)) {
                 data[i] = color1.r; // r
                 data[i + 1] = color1.g; // g
                 data[i + 2] = color1.b; // b
             }
-            else {
+            else if (avg > point && (color2.a != 0)) {
                 data[i] = color2.r; // r
                 data[i + 1] = color2.g; // g
                 data[i + 2] = color2.b; // b

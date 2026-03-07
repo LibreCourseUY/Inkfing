@@ -58,8 +58,8 @@ a:visited {
 }
 
 .container {
-    left: 0;
-    margin-left: 0;
+    left: 0 !important;
+    margin-left: 0 !important;
 }
 
 .content {
