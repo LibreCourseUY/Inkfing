@@ -17,7 +17,7 @@
 
 A basic dark-mode extension
 
-> New to development? Don't worry, we all started somewhere. If you have questions, feel free to ask in Issues or seek help from the Fing community.
+> New to development? Don't worry, we all started somewhere. If you have questions, feel free to ask in Issues or seek help from the LibreCourseUY community.
 
 ## What is this project?
 
@@ -62,11 +62,27 @@ It's designed to help incoming students find study partners and collaborative pr
 
 ```txt
 InkFing_vX.x
+├── .github
+├── afdesign
+│   *.af
+│   *.afdesign
+├── images
+│   *.png
+│   *.jpg
 ├── css
 │   *.css
+├── js
+│   *.js
+├── options
+│   options.html
+│   options.css
+│   options.js
 ├── icons
 │   *.png
+│   *.svg
 ├── manifest.json
+├── LICENSE
+├── README.md
 ```
 
 ## How to Contribute
