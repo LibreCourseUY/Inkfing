@@ -10,6 +10,19 @@
     scrollbar-color: var(--inkFing-secondary) var(--inkFing-background-300) !important;
 }
 
+.courseindex-link[aria-selected="true"] {
+    color: var(--inkFing-primary) !important;
+}
+
+.courseindex .courseindex-item.pageitem>a {
+    color: var(--inkFing-primary) !important;
+}
+
+.drawer-toggles .drawer-toggler .btn {
+    background-color: var(--inkFing-background-300) !important;
+    color: var(--inkFing-primary) !important;
+}
+
 .dimmed_text,
 .usersuspended,
 .dimmed_category {
@@ -42,7 +55,6 @@
 .block .block-cards .btn-link {
     color: var(--inkFing-secondary) !important;
 }
-
 
 .alert-info .btn-close {
     color: var(--inkFing-primary) !important;
@@ -131,7 +143,6 @@ div.eva_botonera:nth-child(3)>a>img {
 .all-notifications>div:hover,
 .all-notifications>div:focus {
     background-color: var(--inkFing-background-300) !important;
-
 }
 
 .popover {
@@ -265,6 +276,80 @@ table.quizreviewsummary td.cell {
     outline: none !important;
 }
 
+pre {
+    color: var(--inkFing-primary) !important;
+}
+
+td[bgcolor="#f5f6f7"] {
+    background-color: var(--inkFing-background-100) !important;
+}
+
+td[bgcolor="#ffd4f4"] {
+    background-color: var(--inkFing-color-tiger) !important;
+    color: var(--inkFing-background-100) !important;
+}
+
+td[bgcolor="#fbeeb8"] {
+    background-color: var(--inkFing-color-yellow) !important;
+    color: var(--inkFing-background-100) !important;
+}
+
+td[bgcolor="#bfedd2"] {
+    background-color: var(--inkFing-color-lime) !important;
+    color: var(--inkFing-background-100) !important;
+}
+
+td[bgcolor="#f8cac6"] {
+    background-color: var(--inkFing-color-sunset) !important;
+    color: var(--inkFing-background-100) !important;
+}
+
+td[bgcolor="#c2e0f4"] {
+    background-color: var(--inkFing-color-pink) !important;
+    color: var(--inkFing-background-100) !important;
+}
+
+td[bgcolor="#ced4d9"] {
+    background-color: var(--inkFing-color-violet) !important;
+    color: var(--inkFing-background-100) !important;
+}
+
+td[bgcolor="#ced4d9"] a {
+    background-color: var(--inkFing-background-100) !important;
+    color: var(--inkFing-link) !important;
+}
+
+td[bgcolor="#ffe3c2"]  {
+    background-color: var(--inkFing-color-sky) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+td[bgcolor="#eccafa"] {
+    background-color: var(--inkFing-color-magenta) !important;
+    color: var(--inkFing-background-100) !important;
+}
+
+td[bgcolor="#c7f2c7"] {
+    background-color: var(--inkFing-color-neon) !important;
+    color: var(--inkFing-background-100) !important;
+}
+
+td[bgcolor="#c2e0f4"] {
+    background-color: var(--inkFing-color-pink) !important;
+    color: var(--inkFing-background-100) !important;
+}
+
+td[bgcolor="#d9eef2"] {
+    background-color: var(--inkFing-color-cyan) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+td[bgcolor="#d9eef2"] a {
+    background-color: var(--inkFing-background-100) !important;
+    color: var(--inkFing-link) !important;
+}
+
+
 tr[style*="background-color: #d9d9d9;"] {
     background-color: var(--inkFing-background-300) !important;
     color: var(--inkFing-primary) !important;
@@ -352,6 +437,77 @@ td[style*="background-color: #eeeeee;"] {
     background-color: var(--inkFing-color-indigo) !important;
     color: var(--inkFing-primary) !important;
 }
+
+*[style*="background-color: rgb(255, 248, 220);"],
+*[style*="background:rgb(255, 248, 220);"],
+*[style*="background-color: #fff8dc;"],
+*[style*="background: #fff8dc;"] {
+    background-color: var(--inkFing-color-yellow) !important;
+    color: var(--inkFing-background-100) !important;
+    border: none !important;
+}
+
+*[style*="background-color: rgb(230, 244, 255);"],
+*[style*="background: rgb(230, 244, 255);"],
+*[style*="background-color: #e6f4ff;"],
+*[style*="background: #e6f4ff;"] {
+    background-color: var(--inkFing-background-100) !important;
+    color: var(--inkFing-primary) !important;
+    border: none !important;
+}
+
+*[style*="background-color: rgb(242, 249, 255);"],
+*[style*="background: rgb(242, 249, 255);"],
+*[style*="background-color: #f2f9ff;"],
+*[style*="background: #f2f9ff;"] {
+    background-color: var(--inkFing-background-100) !important;
+    color: var(--inkFing-primary) !important;
+    border: none !important;
+}
+
+*[style*="background-color: rgb(255, 239, 227);"],
+*[style*="background: rgb(255, 239, 227);"],
+*[style*="background-color: rgb(255, 249, 245);"],
+*[style*="background: rgb(255, 249, 245);"],
+*[style*="background-color: #ffefe3;"],
+*[style*="background: #ffefe3;"],
+*[style*="background-color: #fff9f5;"],
+*[style*="background: #fff9f5;"] {
+    background-color: var(--inkFing-color-tiger) !important;
+    color: var(--inkFing-background-100) !important;
+    border: none !important;
+}
+
+*[style*="background-color: #c2e0f4;"],
+*[style*="background: #c2e0f4;"] {
+    background-color: var(--inkFing-color-sky) !important;
+    color: var(--inkFing-primary) !important;
+    border: none !important;
+}
+
+*[style*="background-color: #ecf0f1;"],
+*[style*="background: #ecf0f1;"] {
+    background-color: var(--inkFing-background-200) !important;
+    color: var(--inkFing-primary) !important;
+    border: none !important;
+}
+
+*[style*="background-color: #e4f6ff;"],
+*[style*="background: #e4f6ff;"] {
+    background-color: var(--inkFing-color-sky) !important;
+    color: var(--inkFing-primary) !important;
+    border: none !important;
+}
+
+*[style*="background-color: #ced4d9;"],
+*[style*="background: #ced4d9;"] {
+    background-color: var(--inkFing-color-lime) !important;
+    color: var(--inkFing-primary) !important;
+    border: none !important;
+}
+
+
+
 
 .activity.subsection>.activity-item {
     border-color: transparent;
@@ -536,13 +692,16 @@ a>i {
     color: var(--inkFing-primary) !important;
 }
 
-
 .input-group-text {
     border-color: var(--inkFing-background-300) !important;
 }
 
 .border-top {
     border-color: var(--inkFing-background-300) !important;
+}
+
+.btn.btn-icon {
+    color: var(--inkFing-primary) !important;
 }
 
 .btn.btn-icon:hover,
@@ -680,7 +839,6 @@ span.unread *:focus {
 .grade-report-user .user-grade tbody tr:hover {
     background-color: var(--inkFing-background-100) !important;
 }
-
 
 .btn.dropdown-toggle {
     color: var(--inkFing-primary) !important;
@@ -825,8 +983,6 @@ div[style*="background: white;"] {
     color: var(--inkFing-background-100) !important;
 }
 
-
-
 .moremenu .nav-tabs {
     background-color: transparent !important;
 }
@@ -968,21 +1124,21 @@ div.tox[role="application"] {
         background-color: var(--inkFing-background-200);
         border: none;
 
-        div.tox-statusbar__path-item, 
+        div.tox-statusbar__path-item,
         div.tox-statusbar__path-divider {
             color: var(--inkFing-primary);
         }
-        
+
         button.tox-statusbar__wordcount,
         button.tox-statusbar__wordcount:hover,
         button.tox-statusbar__wordcount:active {
             color: var(--inkFing-primary) !important;
         }
-        
+
         span.tox-statusbar__branding {
             a {
                 color: var(--inkFing-color-aqua) !important;
-                
+
                 svg {
                     fill: var(--inkFing-color-aqua) !important;
                 }
