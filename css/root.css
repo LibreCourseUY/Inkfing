@@ -20,4 +20,5 @@ Instead define a property/variable in root to be used across everywhere */
     --inkFing-color-tiger: #E65100;
     --inkFing-color-indigo: #4A148C;
     --inkFing-radius: 4px;
+    --inkFing-background-white: #FFFFFF;
 }

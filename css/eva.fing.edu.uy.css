@@ -103,9 +103,6 @@ a[style*="color: rgb(255, 255, 255)"] {
     color: var(--inkFing-primary) !important;
 }
 
-.calendar_event_course {
-    background-color: var(--inkFing-background-200) !important;
-}
 
 .modal-content {
     background-color: var(--inkFing-background-100) !important;
@@ -513,8 +510,55 @@ td[style*="background-color: #eeeeee;"] {
     border: none !important;
 }
 
+.block-add {
+    background-color: transparent !important;
+    color: var(--inkFing-link) !important;
+}
 
+.block .calendar_filters li span.calendar_event_site i,
+.block .calendar_filters li span.calendar_event_category i,
+.block .calendar_filters li span.calendar_event_course i,
+.block .calendar_filters li span.calendar_event_group i,
+.block .calendar_filters li span.calendar_event_user i,
+.block .calendar_filters li span.calendar_event_other i {
+    color: var(--inkFing-background-100) !important;
+}
 
+.calendar_event_site {
+    background-color: var(--inkFing-color-lime) !important;
+    border-color: color-mix(in srgb, var(--inkFing-color-lime), white 20%) !important;
+    border-radius: var(--inkFing-radius);
+}
+
+.calendar_event_category {
+    background-color: var(--inkFing-color-pink) !important;
+    border-color: color-mix(in srgb, var(--inkFing-color-pink), white 20%) !important;
+    border-radius: var(--inkFing-radius);
+}
+
+.calendar_event_course {
+    background-color: var(--inkFing-color-violet) !important;
+    border-color: color-mix(in srgb, var(--inkFing-color-violet), white 20%) !important;
+    border-radius: var(--inkFing-radius);
+}
+
+.calendar_event_group {
+    background-color: var(--inkFing-color-yellow) !important;
+    border-color: color-mix(in srgb, var(--inkFing-color-yellow), white 20%) !important;
+    border-radius: var(--inkFing-radius);
+}
+
+.calendar_event_user {
+    background-color: var(--inkFing-color-aqua) !important;
+    border-color: color-mix(in srgb, var(--inkFing-color-aqua), white 20%) !important;
+    border-radius: var(--inkFing-radius);
+}
+
+.calendar_event_other {
+    background-color: var(--inkFing-color-sunset) !important;
+    border-color: color-mix(in srgb, var(--inkFing-color-sunset), white 20%) !important;
+    border-radius: var(--inkFing-radius);
+}
 
 .activity.subsection>.activity-item {
     border-color: transparent;
@@ -784,6 +828,11 @@ span.unread {
     background-color: var(--inkFing-background-300) !important;
 }
 
+.filter_mathjaxloader_equation img {
+    background-color: var(--inkFing-background-white) !important;
+}
+
+
 .content-item-container.unread:hover,
 .forumpost.unread .row.header:hover,
 .path-course-view .unread:hover,
@@ -794,6 +843,23 @@ span.unread:hover,
 span.unread:focus {
     background-color: var(--inkFing-background-100) !important;
 }
+
+.filemanager .ygtvfocus {
+    background-color: transparent !important;
+}
+
+.file-picker .fp-content {
+    background-color: var(--inkFing-background-100) !important;
+}
+
+td[bgcolor="#e6e6ff"] {
+    background-color: var(--inkFing-background-200) !important;
+}
+
+.path-mod-assign td.submissionnotgraded {
+    color: var(--inkFing-primary) !important;
+}
+
 .content-item-container.notification.unread .context-link div div i {
     color: var(--inkFing-primary) !important;
 }
@@ -1078,10 +1144,37 @@ div[style="background-color: #d6feff;"] {
     background-color: var(--inkFing-link);
 }
 
+.courses.frontpage-course-list-enrolled>.coursebox.clearfix>.content {
+    display: none;
+}
+
+.courses.frontpage-course-list-enrolled>.coursebox.clearfix {
+    margin-right: .5rem;
+}
+
+.courses.frontpage-course-list-enrolled {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.courses.frontpage-course-list-enrolled .paging.paging-morelink {
+    grid-column: 1 / -1;
+}
+
+@media screen and (min-width: 700px) {
+    .courses.frontpage-course-list-enrolled {
+        grid-template-columns: auto auto;
+    }
+}
+
 /* On screens larger than x always show search bar*/
 @media screen and (min-width: 1200px) {
     a[data-action="closesearch"] {
         display: none !important;
+    }
+
+    .courses.frontpage-course-list-enrolled {
+        grid-template-columns: auto auto auto;
     }
 
     a[data-action="opensearch"] {
