@@ -1,0 +1,179 @@
+small.licencia::after {
+    content: "You are using InkFing";
+    display: block;
+    color: var(--inkFing-secondary);
+}
+
+body {
+    background-color: var(--inkFing-background-100) !important;
+}
+
+.pagina-cursos .curso {
+    background-color: var(--inkFing-background-200) !important;
+    border-color: var(--inkFing-background-300) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+.pagina-cursos .contenedor-buscador .campo-buscador {
+    background-color: var(--inkFing-background-200) !important;
+    border-color: var(--inkFing-background-300) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+.pagina-cursos .contenedor-buscador input {
+    color: var(--inkFing-primary) !important;
+}
+
+.pagina-cursos .contenedor-buscador .icono-buscador {
+    filter: invert(100%);
+}
+
+.header {
+    height: 70px !important;
+    background-color: var(--inkFing-background-200) !important;
+    border-color: var(--inkFing-background-300) !important;
+}
+
+.header .hamburguesa {
+    background-color: transparent !important;
+}
+
+.header .enlace {
+    color: var(--inkFing-primary) !important;
+}
+
+.logo {
+    filter: grayscale(100%) invert(100%) !important;
+}
+
+.pagina-curso .distribucion-curso>.listado-clases-curso,
+.pagina-clase .distribucion-curso>.listado-clases-curso,
+.pagina-curso,
+.pagina-clase,
+.pagina-curso .unidad-curricular,
+.pagina-clase .unidad-curricular,
+.pagina-curso .distribucion-curso,
+.pagina-clase .distribucion-curso {
+    background-color: transparent !important;
+    color: var(--inkFing-primary) !important;
+}
+
+.clase-item {
+    background-color: var(--inkFing-background-100) !important;
+    border-color: var(--inkFing-background-300) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+.clase-enlace.clase-enlace-activo>div {
+    background-color: var(--inkFing-background-300) !important;
+    border-color: var(--inkFing-background-100) !important;
+}
+
+.clase-enlace {
+    border-color: var(--inkFing-background-300) !important;
+}
+
+.curso-enlace.curso-enlace-activo {
+    background-color: var(--inkFing-primary) !important;
+    color: var(--inkFing-background-100) !important;
+}
+
+.curso-enlace {
+    background-color: var(--inkFing-background-200) !important;
+    border-color: var(--inkFing-background-300) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+.pagina-clase .info-clase {
+    background-color: transparent !important;
+}
+
+.fecha-clase {
+    color: var(--inkFing-secondary) !important;
+}
+
+.tarjeta-metadatos-clase {
+    border-color: transparent !important;
+}
+
+.tarjeta-metadatos-clase--colapsable:not(.tarjeta-metadatos-clase--expandida):hover {
+    background-color: var(--inkFing-background-200) !important;
+    border-color: var(--inkFing-background-300) !important;
+}
+
+.clase-metadata-accion,
+.clase-metadata-ocultar-boton {
+    color: var(--inkFing-link) !important;
+}
+
+.institutos-clase-titulo,
+.docentes-clase-titulo {
+    color: var(--inkFing-primary) !important;
+}
+
+.institutos-clase-valor {
+    background-color: var(--inkFing-background-200) !important;
+    border-color: var(--inkFing-background-300) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+.boton-accion-clase {
+    color: var(--inkFing-primary) !important;
+    background-color: var(--inkFing-background-200) !important;
+}
+
+.boton-accion-clase img {
+    filter: grayscale(100%) invert(100%) !important;
+}
+
+dialog {
+    background-color: var(--inkFing-background-100) !important;
+    border-color: var(--inkFing-background-200) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+input {
+    background-color: var(--inkFing-background-200) !important;
+    border-color: var(--inkFing-background-300) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+.pagina-actualizaciones .titulo-actualizaciones {
+    color: var(--inkFing-primary) !important;
+}
+
+.enlace-actualizacion {
+    background-color: var(--inkFing-background-200) !important;
+    border-color: var(--inkFing-background-300) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+.titulo-faq,
+.titulo-grupo-faq {
+    color: var(--inkFing-primary) !important;
+}
+
+.pregunta-faq,
+.pregunta-faq>* {
+    background-color: var(--inkFing-background-200) !important;
+    border-color: var(--inkFing-background-300) !important;
+    color: var(--inkFing-primary) !important;
+}
+
+.pagina-faq .titulo-pregunta-faq::after {
+    filter: grayscale(100%) invert(100%) !important;
+}
+
+.titulo-pagina-contenido {
+    color: var(--inkFing-primary) !important;
+}
+
+.titulo-columna-pagina {
+    color: var(--inkFing-primary) !important;
+}
+p{
+    color: var(--inkFing-secondary) !important;
+}
+footer{
+    background-color: var(--inkFing-background-100) !important;
+}
