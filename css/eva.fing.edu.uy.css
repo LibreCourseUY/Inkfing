@@ -1,5 +1,4 @@
 /* Start by inspecting https://eva.fing.edu.uy/ and copying classes, id's, selectors to then update their styling */
-
 /* As an example this adds some text on the footers page */
 
 .popover-body div.footer-section:nth-child(3) div::after {
@@ -528,6 +527,10 @@ td[style*="background-color: #eeeeee;"] {
     background-color: var(--inkFing-color-lime) !important;
     border-color: color-mix(in srgb, var(--inkFing-color-lime), white 20%) !important;
     border-radius: var(--inkFing-radius);
+}
+
+[data-blockregion]:not([data-blockregion="content"]) .block.block_calendar_month .maincalendar .calendartable.calendarmonth td.clickable:not(.today):hover .day-number-circle {
+    color: var(--inkFing-background-100) !important;
 }
 
 .calendar_event_category {
