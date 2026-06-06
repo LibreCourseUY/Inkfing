@@ -596,6 +596,20 @@ td[style*="background-color: #eeeeee;"] {
     color: var(--inkFing-primary) !important;
 }
 
+.format-onetopic #page.drawers .onetopic-withsectionbg div[role="main"],
+.format-onetopic .onetopic-withsectionbg .course-section,
+.format-onetopic .onetopic-withsubsectionbg .course-section {
+    background-color: transparent !important;
+}
+
+td[style*="background: #ccffff;"] {
+    background-color: var(--inkFing-background-100) !important;
+}
+
+td[style*="background: #ffffff;"] {
+    background-color: var(--inkFing-background-200) !important;
+}
+
 .btn-secondary:focus {
     background-color: var(--inkFing-background-100) !important;
     color: var(--inkFing-primary) !important;

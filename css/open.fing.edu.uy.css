@@ -35,7 +35,8 @@ body {
 }
 
 .header .hamburguesa {
-    background-color: transparent !important;
+    background-color: var(--inkFing-background-200) !important;
+    border-color: var(--inkFing-background-300) !important;
 }
 
 .header .enlace {
@@ -43,6 +44,10 @@ body {
 }
 
 .logo {
+    filter: grayscale(100%) invert(100%) !important;
+}
+
+.boton-hamburguesa {
     filter: grayscale(100%) invert(100%) !important;
 }
 
@@ -171,9 +176,59 @@ input {
 .titulo-columna-pagina {
     color: var(--inkFing-primary) !important;
 }
-p{
+
+p {
     color: var(--inkFing-secondary) !important;
 }
-footer{
+
+footer {
+    background-color: var(--inkFing-background-100) !important;
+}
+
+.busquedas-recientes-eliminar-icono {
+    filter: grayscale(100%) invert(100%);
+}
+
+.pagina-cursos .contenedor-buscador .busquedas-recientes-eliminar:hover,
+.pagina-cursos .contenedor-buscador .busquedas-recientes-eliminar:hover * {
+    background-color: var(--inkFing-color-tiger) !important;
+    filter: invert(0%) !important;
+}
+
+.pagina-cursos .contenedor-buscador .busquedas-recientes,
+.pagina-cursos .contenedor-buscador.tiene-recientes.buscador-abierto {
+    background-color: var(--inkFing-background-100) !important;
+}
+
+.pagina-cursos .contenedor-buscador .busquedas-recientes-titulo {
+    color: var(--inkFing-primary) !important;
+}
+
+.pagina-cursos .contenedor-buscador .busquedas-recientes-item {
+    background-color: var(--inkFing-background-200) !important;
+}
+
+.pagina-cursos .contenedor-buscador .busquedas-recientes-item:hover {
+    background-color: var(--inkFing-background-300) !important;
+}
+
+.pagina-cursos .contenedor-buscador .busquedas-recientes-enlace {
+    color: var(--inkFing-primary) !important;
+}
+
+.pagina-faq .encabezado-faq::before,
+.pagina-contenido .encabezado-pagina-contenido::before,
+.pagina-actualizaciones .encabezado-actualizaciones::before {
+    background-color: var(--inkFing-background-200) !important;
+}
+
+.respuesta-faq>p {
+    color: var(--inkFing-primary) !important;
+}
+
+.seccion-buscador::before {
+    background-color: var(--inkFing-background-100) !important;
+}
+.pagina-curso .distribucion-curso--con-detalle > [data-panel-lista-clases] > .lista-cursos-con-scroll, .pagina-clase .distribucion-curso--con-detalle > [data-panel-lista-clases] > .lista-cursos-con-scroll{
     background-color: var(--inkFing-background-100) !important;
 }
