@@ -399,3 +399,21 @@ a[style="color: #535353;"] {
     content: "You are using InkFing";
     color: var(--inkFing-secondary);
 }
+.nroControlColumna{
+    background-color: var(--inkFing-background-100) !important;
+}
+
+.ui-selectcheckboxmenu{
+    background-color: var(--inkFing-background-100) !important;
+    border-color: var(--inkFing-background-300) !important;
+}
+.ui-selectcheckboxmenu .ui-state-hover{
+    background-color: var(--inkFing-background-100) !important;
+
+}
+.ui-selectcheckboxmenu-panel{
+    background-color: var(--inkFing-background-200) !important;
+}
+.ui-selectcheckboxmenu-panel .ui-selectcheckboxmenu-items .ui-selectcheckboxmenu-item{
+    color: var(--inkFing-primary) !important;
+}

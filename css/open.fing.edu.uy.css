@@ -232,3 +232,8 @@ footer {
 .pagina-curso .distribucion-curso--con-detalle > [data-panel-lista-clases] > .lista-cursos-con-scroll, .pagina-clase .distribucion-curso--con-detalle > [data-panel-lista-clases] > .lista-cursos-con-scroll{
     background-color: var(--inkFing-background-100) !important;
 }
+@media (min-width: 995px) {
+  .pagina-clase .tarjeta-metadatos-clase--expandida {
+    background-color: var(--inkFing-background-200) !important;
+  }
+}
