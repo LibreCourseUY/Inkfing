@@ -24,16 +24,6 @@ async function initImage() {
         }
     });
 }
-async function initBanner() {
-    document.querySelectorAll(".img-responsive").forEach(async (element, i) => {
-        const result = await chrome.storage.local.get([`${storagePrefix}banner/${i}`]);
-        if (result[`${storagePrefix}banner/${i}`]) {
-            element.src = result[`${storagePrefix}banner/${i}`];
-        } else {
-            await generateAndSaveImage(element, `${storagePrefix}banner/${i}`, { a: 0 }, bg_100, 240);
-        }
-    });
-}
 async function initLogo() {
     document.querySelectorAll(".img-fluid").forEach(async (element, i) => {
         const result = await chrome.storage.local.get([`${storagePrefix}login/${i}`]);
@@ -163,4 +153,4 @@ function expandedStateDisplay(element, property) {
 
 if (window.location.pathname == "/") initImage();
 if (window.location.pathname.startsWith("/login")) initLogo();
-if (window.location.pathname.startsWith("/course")) initBanner(); treeDisplay();
+if (window.location.pathname.startsWith("/course")) treeDisplay();
