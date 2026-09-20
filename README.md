@@ -21,7 +21,7 @@ A basic dark-mode extension
 
 ## What is this project?
 
-Welcome to InkFing! This project is a simple extension that allows Fing (Facultad de Ingeniería, UdelaR) students to give their day to day web apps a refreshed dark-mode.
+Welcome to InkFing! This project is a simple extension that allows engineering students to give their day to day web apps a refreshed dark-mode.
 It's designed to help incoming students find study partners and collaborative projects to work on.
 
 ### InkFing currently supports dark-mode on this sites

@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "short_name": "InkFing",
     "name": "InkFing",
-    "description": "A refreshed dark-mode for day to day Fing students web apps.",
+    "description": "A refreshed dark-mode for day to day engineering students web apps.",
     "version": "0.10",
     "author": "LibreCourseUY",
     "icons": {
