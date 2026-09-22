@@ -1,9 +1,6 @@
 # InkFing
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/LibreCourseUY/Inkfing)
-
 > [!IMPORTANT]
-> LibrecourseUY es un proyecto de software open source, independiente y comunitario. Las herramientas, funcionalidades y recursos disponibles en esta plataforma incluyendo "inkFing" fueron creados y mantenidos por miembros, contribuidores y colaboradores de LibrecourseUY.
 >
 > La herramienta "inkFing" no está afiliada, asociada, patrocinada, avalada, autorizada ni respaldada por ninguna institución educativa u organización, incluyendo sin limitarse a la Universidad de la República (UdelaR) y la Facultad de Ingeniería (FING), ni por cátedras, docentes, unidades académicas o dependencias administrativas.
 >
@@ -16,8 +13,6 @@
 ![InkFing Banner](./images/InkFingBanner.jpg)
 
 A basic dark-mode extension
-
-> New to development? Don't worry, we all started somewhere. If you have questions, feel free to ask in Issues or seek help from the LibreCourseUY community.
 
 ## What is this project?
 

@@ -49,4 +49,4 @@ for file in js/*.js options/*.js; do node --check "$file"; done
 
 ## Found a problem?
 
-Report it in the [Issues](https://github.com/LibreCourseUY/Inkfing/issues) section using the available templates.
+Report it in the [Issues](https://github.com/joaquinlarroca/Inkfing/issues) section using the available templates.
